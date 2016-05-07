@@ -59,8 +59,8 @@ import org.robovm.apple.storekit.*;
     /*</properties>*/
     /*<members>*//*</members>*/
     /*<methods>*/
-    @Method(selector = "loadRequest:withAdUnitID:userID:")
-    public native void loadRequest(GADRequest request, String adUnitID, String userID);
+    @Method(selector = "loadRequest:withAdUnitID:")
+    public native void loadRequest(GADRequest request, String adUnitID);
     @Method(selector = "presentFromRootViewController:")
     public native void present(UIViewController viewController);
     @Method(selector = "sharedInstance")
